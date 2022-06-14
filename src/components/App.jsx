@@ -2,7 +2,7 @@ import React from "react";
 import Entry from "./Entry";
 import emojipedia from "../emojipedia.js";
 
-function insertDict(emojipedia) {
+function insertDict(emojipedia => {
   return (
     <Entry
       key={emojipedia.id}
@@ -11,7 +11,7 @@ function insertDict(emojipedia) {
       meaning={emojipedia.meaning}
     />
   );
-}
+});
 
 function App() {
   return (
