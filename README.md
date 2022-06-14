@@ -1,2 +1,2 @@
-# Emojipedia-Updated-Bootstrap
+# Emojipedia-Quick
 Created with CodeSandbox
